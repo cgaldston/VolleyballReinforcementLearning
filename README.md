@@ -103,7 +103,7 @@ Here is a plot of the reward from the first 1000 training episodes of our dqn tr
 <img src="plots/dqn_one.png" width="500" height="300">
 
 
-As we can see towards then last few hundred episodes the agent definately showed signs of improvement, however, we wanted to see if we could do better. To attempt to improve performaces, we decreased the rate of epsilon decay so that the agent would explore more states early on. Additionally, we increased the complexity of the model by adding more layers to the neural network and modified the evaluation and selction of actions so it followed the Double Q-Learning approach introduced by van Hesselt. These changes resulted in a slight improvement in training, but also caused the agent train signficantly more slowly due to the complexity of the network. 
+As we can see towards then last few hundred episodes the agent definately showed signs of improvement, however, we wanted to see if we could do better. To attempt to improve performaces, we decreased the rate of epsilon decay so that the agent would explore more states early on. Additionally, we increased the complexity of the model by adding more layers to the neural network and modified the evaluation and selection of actions so it followed the Double Q-Learning approach introduced by van Hesselt. These changes resulted in a slight improvement in training, but also caused the agent train signficantly more slowly due to the complexity of the network. 
 
 Here is a plot of the reward from the first 1000 training episodes of the algorithm with these improvements. 
 
